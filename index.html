@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yark Lock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header">
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.JPG" alt="">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+            <i class="fas fa-cart-shopping"></i>
+            <i class="fa fa-bars" onclick="menutoggle()"></i>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Secure your home with <br> Beautiful Locks!</h1>
+                <p>Success is not always about greatness. It is about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="Slide111.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <!-- featured categories -->
+    <div class="categories">
+
+        <div class="small-conatiner">
+            <div class="row">
+                <div class="col-3">
+                    <img src="featured-products/Slide1.PNG" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="featured-products/Slide2.PNG" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="featured-products/Slide3.PNG" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- feaured products -->
+
+    <div class="small-container">
+        <h2 class="title">Feature Products</h2>
+        <div class="row">
+
+            <div class="col-4">
+                <img src="Yark locks images/Slide14.JPG" alt="">
+                <h4>Four Bullet Latch Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Single Cylinder <br> Antique - Rs4443.00 <br> S/S - 4312.00</p>
+            </div>
+
+            
+            <div class="col-4">
+                <img src="Yark locks images/Slide27.JPG" alt="">
+                <h4>Tripple Bolt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p> Antique - Rs3028.00 <br> N/S - 3028.00 <br> S.S. 304 G - 3028.00</p>
+            </div>
+            
+            <div class="col-4">
+                <img src="Yark locks images/Slide32.JPG" alt="">
+                <h4>Night Latch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Pin Cylinder <br> Ivory BPL - 750.00 <br> S.S - 850.00</p>
+            </div>
+            
+            <div class="col-4">
+                <img src="Yark locks images/Slide43.JPG" alt="">
+                <h4>Heavy Duty Door Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Lever Locking <br> Antique - Rs790.00 <br> S.S - 750.00</p>
+            </div>
+
+        </div>
+
+        <!-- Latest Products -->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <!-- 1 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide13.JPG" alt="">
+                <h4>Four Bullet Dead Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Double Cylinder <br> Antique - Rs2765.00 <br> S/S - 2765.00</p>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide14.JPG" alt="">
+                <h4>Four Bullet Latch Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p> Single Cylinder <br> Antique - Rs4443.00 <br> S/S - 4312.00 </p>
+            </div>
+            
+            <!-- 3 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide15.JPG" alt="">
+                <h4>Four Bullet Dead Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Single Cylinder <br> Antique - 2370.00 <br> S/S - 2370.00</p>
+            </div>
+            
+            <!-- 4 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide16.JPG" alt="">
+                <h4>Five Bullet Dead Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Double Cylinder <br> Antique - Rs5395.00 <br> S/S - 5395.00</p>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide17.JPG" alt="">
+                <h4>Five Bullet Dead Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Single Cylinder <br> Antique - Rs4870.00 <br> S/S - 4870.00</p>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide18.JPG" alt="">
+                <h4>Five Bullet Latch Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p> Single Cylinder <br> Antique - Rs5132.00 <br> S/S - 5132.00 </p>
+            </div>
+            
+            <!-- 7 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide20.JPG" alt="">
+                <h4>Six Bullet Latch Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Double Cylinder <br> Antique - 5005.00 <br> N/S - 4875.00</p>
+            </div>
+            
+            <!-- 8 -->
+            <div class="col-4">
+                <img src="Yark locks images/Slide21.JPG" alt="">
+                <h4>Six Bullet Latch Lock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Single Cylinder <br> Antique - Rs4443.00 <br> N/S - 4312.00</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Slide45.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Smart Band</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger that mi band 3 amoled color full-touch display with adjustable brightness, so everything is clear as it can be.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae explicabo, sed enim aperiam est molestiae vitae ipsa quam pariatur autem laboriosam perspiciatis illo, omnis, deserunt sint recusandae ipsam quia voluptate!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <img src="owner.png" alt="">
+                    <h3>Mr. Shankar Lal Sharma</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae explicabo, sed enim aperiam est molestiae vitae ipsa quam pariatur autem laboriosam perspiciatis illo, omnis, deserunt sint recusandae ipsam quia voluptate!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <img src="owner.png" alt="">
+                    <h3>Mr. Chandra Prakash Sharma</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae explicabo, sed enim aperiam est molestiae vitae ipsa quam pariatur autem laboriosam perspiciatis illo, omnis, deserunt sint recusandae ipsam quia voluptate!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <img src="owner.png" alt="">
+                    <h3>Mr. Pawan Sharma</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download out app for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="app-logo.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo.png" alt="">
+                    <p>Our purpose is to sustainably name the pleasure and benefits of sports accessible ot the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
